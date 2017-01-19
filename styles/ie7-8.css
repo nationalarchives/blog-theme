@@ -1,0 +1,739 @@
+/*Note: We include only consistent site-wide styles (styles for elements that appear on all new pages) and Blog-specific styles here */
+
+/* imported from original ie7.css */
+
+#page_wrap {
+	position: relative;
+}
+
+#page-header {
+	margin: -20px 0 0 0;
+}
+
+#page-header .container section {
+	margin: 20px auto -15px auto;
+
+}
+
+#search-controls li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.box ul {
+	margin-left: -5px !important;
+	margin-bottom: 10px;
+}
+
+.boxText ul li, .minboxText ul li, .majboxText ul li, .majboxText-img ul li, .minboxText-img ul li, .list-subsection ul li, .reduce ul li {
+	list-style-type: none outside;
+	background: url("http://nationalarchives.gov.uk/images/global/list-link-bullet.png") no-repeat 0 5px;
+	float: left;
+	margin: 0 30px 10px -10px;
+	padding: 0 0 0 20px;
+	font-size: 1em;
+}
+
+.widget_recent_entries ul li, .widget_recent_comments ul li, .widget_categories ul li, .widget_links ul li {
+	list-style-type: none outside;
+	background: url("http://nationalarchives.gov.uk/images/global/list-link-bullet.png") no-repeat 0 5px;
+	float: left;
+	margin: 0 30px 10px 0;
+	padding: 0 0 0 20px;
+	font-size: 1em;
+}
+
+
+
+.boxText {
+	margin-top: 7em !important;
+}
+
+.boxText h4 {
+	margin-bottom: -20px !important;
+}
+
+.minboxText ul li, .minboxText-img ul li, .list-subsection ul li, .reduce ul li {
+width: 39%;
+}
+
+*:first-child+html .row, *:first-child+html .clr, *:first-child+html .group { 
+	zoom: 1; 
+} 
+
+.row {
+		margin-bottom: 2.5%;
+}
+.row:first-child {
+		margin-bottom: 0;
+}
+
+
+
+
+h1 {
+	display: block;
+	width: 100%;
+}
+
+
+h1 > span, h2 > span, h3 > span  {
+background-image: url('http://nationalarchives.gov.uk/images/global/heading-flourish.png');
+background-repeat: no-repeat;
+background-position: bottom left;
+float: left;
+padding-bottom: 10px;
+}
+
+
+#footer-wrapper ul {
+	margin-left: 0;
+}
+
+.boxText p {
+	padding: 8px 0 8px 0!important;
+}
+
+.ends-at-half {
+	max-width: 48.9% !important;
+}
+
+.ends-at-one-third, .third {
+	max-width: 31.9% !important;
+}
+
+.ends-at-one-quarter {
+	max-width: 23.4%;
+}
+
+.ends-at-sixth {
+	max-width: 14.6%;
+}
+
+.half {
+	width: 100% !important;
+}
+
+#breadcrumb {
+	padding: 0 !important;
+}
+#breadcrumb ul {
+	padding: 12px 0 12px 0;
+}
+
+#breadcrumb li {
+	display: inline;
+}
+
+#global-controls {
+	margin: .5em 0;
+}
+
+.mega-menu ul {
+	margin: 0;
+}
+
+#mega-menu-pull-down {
+	position: relative;
+	margin-top: -45px;
+	cursor: pointer;
+}
+
+#mega-menu-pull-down button {
+	height: 60px;
+	width: 60px;
+	display: block;
+}
+
+.mega-menu-group {
+	max-width: 14.75% !important;
+}
+
+#global-controls li {
+	list-style-type: none;
+}
+
+#global-controls ul {
+	margin: 0;
+}
+
+#search-field-wrapper {
+	margin: 10px 0 0 0;
+	margin-right: 0!important;
+}
+
+#search-field-wrapper input[type="text"] {
+	padding-top: 9px;
+	width: 210px;
+	height: 31px;
+	padding-bottom: 1px;
+}
+
+
+#search-field-wrapper-medium  input[type="text"] {
+position: absolute;
+top: 0;
+right: 41px;
+width: 210px;
+height: 28px;
+border-radius: 0;
+font-family: 'Open Sans', sans-serif !important;
+}
+
+.search-field-wrapper-medium input.search-button {
+	margin: 10px 10px 0 0;
+}
+
+a.call-to-action-link {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+
+.overLay {
+	left: 0;
+	background: #111 !important;
+}
+
+
+
+#section-header {
+	margin-bottom: 20px;
+}
+
+#primary-search-box > article {
+    /*background-image: url("../images/poplar.jpg");*/
+    background-position: left top;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid transparent;
+}
+
+#primary-search-box {
+	margin-bottom: 2%;
+}
+
+.mega-menu-group {
+	width: 14.9%;
+}
+
+.grid-within-grid > div {
+	width: 23.2%; 
+}
+ 
+.container .col .ends-at-one-quarter img, .container .col .ends-at-one-quarter img {
+	float: left;
+}
+
+.grid-within-grid-two-item > .inner-grid-column {
+	width: 47%;
+}
+
+.records .grid-within-grid-two-item > .inner-grid-column {
+	padding-bottom: 18px;
+}
+
+
+#tnaSearch {
+	color: #777;
+	padding: 10px 0 0 8px;
+	max-height:30px;
+}
+
+
+
+#signInSearch {
+	z-index: 1000;
+	min-width: 200px;
+	display: inline;
+}
+
+#signInSearch li {
+	display: inline!important;
+}
+
+#scope-selector {
+	right: 258px;
+}
+
+#search-options {
+	top: 40px;
+	right: 86px;
+}
+
+#signedFormWrapper {
+	top: 30px;
+	left: 0px;
+	margin-left: 0;
+	max-height: 170px;
+}
+
+#signedFormWrapper li {
+	display: block;
+	margin-bottom: 1em;
+	clear: both;
+	width: 100%;
+}
+
+#signedFormWrapper li a {
+	text-align: left;
+	display: block;
+	margin-bottom: 0.5em;
+
+}
+
+
+.breather article {
+	padding-bottom: 40px;
+}
+.entry-meta {
+    clear: both;
+    margin-top: 20px !important;
+    padding: 0px;
+    width: 100%;
+}
+
+.entry-content {
+	float: none;
+}
+.alignleft, .alignright {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+.alignright {
+	float: right;
+	margin: 20px 0 0 20px;
+}
+
+
+.entry-content li {
+	list-style: disc inside;
+	margin: 0 2em;
+}
+
+.entry-content ol li {
+	list-style: decimal outside;
+}
+
+.search-field-wrapper-medium #query { 
+	padding-top: 12px;
+	color: #777;
+	height: 30px;
+}
+
+/* end of imports from original ie7.css */
+
+.container	{
+	width: 1160px;	
+}
+
+.grid-within-grid-two-item > div.griditem {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-within-grid-three-item > div.griditem {
+	width: 31.1%;
+	min-height: 460px;
+}
+.grid-within-grid-eight-item > div {
+	width: 23.0%;
+	margin: 0 2% 2% 0;
+	float: left;
+}
+/*Note: this rule must appear before the 4n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-eight-item > div:nth-child(2n) {
+	margin-right: 2%;
+}
+/*Note: this rule must appear after the 2n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-eight-item > div:nth-child(4n) {
+	margin-right: 0;
+}
+.grid-within-grid-six-item > div {
+	width: 14.6%;
+	margin: 0 2% 2% 0;
+	float: left;
+}
+.mega-menu section nav:nth-child(3), .mega-menu section nav:nth-child(5) {
+	margin-left: 2%;
+}
+/*Note: this rule must appear before the 4n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-six-item > div:nth-child(2n) {
+	margin-right: 2%;
+}
+/*Note: this rule must appear after the 2n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-six-item > div:nth-child(6n) {
+	margin-right: 0;
+}
+.grid-within-grid-two-item > div {
+	width: 49%;
+}
+#footer-wrapper .footer-left {
+	float: left;
+	width: 50%;
+}
+
+.search-field-wrapper {
+	width: 75%;
+}
+#media-queries #second {
+	display: block;
+}
+.pull-down {
+	margin: -32px 0 0;
+}
+.col {
+	margin-left: 2%;
+}
+.ends-at-sixth {
+	width: 23.0%;
+}
+.span_8 {
+	width: 32.0%;
+}
+.ends-at-full {
+/*background-color: rgba(104, 135, 139, 1);*/
+
+}
+.ends-at-one-quarter {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 48%;
+}
+.ends-at-one-third {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 98.0%;
+}
+.ends-at-half {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 49.0%;
+}
+.ends-at-two-thirds {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 66.0%;
+}
+.ends-at-three-quarters {
+	width: 74.5%;
+	margin-left: 2%;
+}
+#primary-navigation ul {
+	display: block;
+}
+
+.ends-at-one-quarter:nth-child(3) {
+	margin-left: 2%;
+}
+.ends-at-sixth:nth-child(even) {
+	margin: 0 2%;
+}
+
+
+.boxText ul li, .majboxText ul li, .majboxText-img ul li, .list-subsection ul li ul li {
+	width: 96%;
+}
+.minboxText ul li, .minboxText-img ul li {
+	width: 45%;
+}
+div.overLay {
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+}
+div.overLay li p {
+	margin: 0 0 1em 0;
+}
+div.overLay h3 {
+	margin: .25em 0;
+	font-size: 1.4em;
+}
+.box p, .box h4 {
+	padding: 0;
+}
+
+.boxText {
+	margin-top: 6.5em;
+	line-height: 150%;
+}
+.boxText h3 {
+	display: inline-block;
+	margin: 0;
+}
+
+#search-field-wrapper {
+	display: block;
+	position: relative;
+	height: 2em;
+	border: 1px solid transparent;
+	margin: 0 .6em 0 0;
+	width: auto;
+}
+.dots {
+	background: transparent;
+}
+
+.img-desc {
+	margin: 10px 0 1em 0;
+	float: right;
+	position: relative;
+	width: 100%;
+	color: #111;
+	text-align: right;
+	background: transparent;
+}
+
+.container .min-height {
+	min-height: 2104px;
+}
+
+#more-options > div {
+	min-height: 240px
+}
+
+#footer-wrapper .footer-left {
+	float: none;
+	width: auto;
+}
+.ends-at-one-quarter {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 23.5%;
+}
+.ends-at-one-third {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 32.0%;
+}
+.ends-at-sixth {
+	width: 14.6%;
+	margin-left: 2%;
+}
+
+.boxText ul li, .majboxText ul li, .majboxText-img ul li, .list-subsection ul li ul li {
+	width: 42%;
+}
+.minboxText ul li, .minboxText-img ul li {
+	width: 96%;
+}
+
+
+}
+.container {
+	width: 1140px;
+}
+#media-queries #second,
+#media-queries #third,
+#media-queries #fourth, 
+#media-queries #fifth {
+	display: block;
+}
+
+
+.subheading {
+	float: left;
+	margin: -18px 0 0 0;
+	padding: .25em 0;
+	display: inline;
+	background: #fff;
+}
+
+
+.snicon-blog {
+	float: left;
+	width: 30%;
+	color: #eee;
+	padding-bottom: 10px;
+}
+
+.snicon a {
+	cursor: pointer;
+}
+
+#search-field-wrapper-blog {
+	position: relative;
+	min-height: 48px;
+	margin: 10px 10px 0 10px;
+}
+.header-blog p {
+	float: right;
+	font-size: 0.7em;
+	text-align: right;
+	margin-bottom: 0.3em;
+}
+select {
+	background: #fcfcfc;
+	border: 1px solid #ccc;
+	padding: 2px 1px 2px 3px;
+	margin: 10px 0 10px 10px;
+}
+ul.list-categories li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+ul.list-categories li a:link {
+	min-height: 32px;
+}
+ul.list-categories  {
+	margin: 20px 20px 0 20px !important;
+	padding: 0 0 0 0 1em;
+}
+.third {
+	width: 31%;
+}
+.half {
+	width: 49%;
+}
+.two-third {
+	width: 65%;
+}
+.img {
+	height: 180px;
+}
+.filter > h2, .filter > h3 {
+	float: left;
+}
+
+
+.filter {
+	width: 100%;
+	height: 60px;
+}
+.filter + ul li:last-child {
+	border: 0;
+}
+
+.blog-dropdowns {
+	float: left;
+	width: 75%;
+	margin-top: 0px;
+}
+
+.blog-dropdowns select {
+	width: 150px !important;
+	margin: 0 5px 0 0;
+}
+
+#search-field-wrapper-blog {
+    float: right;
+    width: 66.6%;
+}
+#search-field-wrapper-blog input[type="text"] {
+    border-radius: 0 0 0 0;
+    height: 19px;
+    text-indent: 10px;
+    width: 97.6%;
+	padding: 0.6em 0;
+}
+
+
+.blog-latest {
+	float: left;
+width: 31.3%;
+margin-left: 20px;
+padding-bottom: 20px;
+}
+.blog-latest:first-child {
+	margin-left: 0;
+}
+
+
+.container .min-height {
+	height: auto !important;
+	height: 2104px;
+    min-height: 2104px;
+}
+.mega-menu h3 {
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.mega-menu	{
+	zoom:1;
+	position:relative;	
+}
+
+.mega-menu li.mobileOnly {
+		display: none;
+	}
+
+
+.call-to-action-link span:first-child {
+	display: inline;
+}
+
+
+.comment-body:first-child p {
+	float: none;
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+
+.comment-body p {
+	min-width: 90%;
+	}
+
+.comment-author {
+	float: left;
+	line-height: 150%;
+	min-width: 128px;
+	margin-bottom: 10px;
+}
+.commentlist, ul.children {
+	float: left;
+	width: 680px;
+}
+ol.commentlist li {
+	float: left;
+	margin-bottom: 32px;
+}
+ul.children li {
+	float: left;
+	width: 90%;
+	max-width: 600px;
+margin-left: 20px;
+}
+
+
+
+
+.says {
+	display: none;
+}
+.cite {
+	float: left;
+	width: 90%;
+}
+.reply {
+	float: right;
+	width: 64px;
+	text-align: right;
+	margin: 20px 0;
+}
+
+#respond p {
+	margin-bottom: 20px;
+
+}
+#respond textarea, .disclaimer {
+	width: 100%;
+	max-width: 760px;
+}
+
+#commentform p {
+	float: left;
+		width: 100%;
+	max-width: 680px;
+}
+
+.disclaimer {
+	width: 700px;
+}
+
+input[type="submit"], .search-field {
+font-family: 'Open Sans', sans-serif !important;
+}
+
+
+#nav-below ul {
+width: 100%;
+}

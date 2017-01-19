@@ -1,0 +1,432 @@
+
+
+#page_wrap {
+	position: relative;
+}
+
+
+#page-header {
+	margin: -40px 0 0 0;
+}
+
+#page-header .container section {
+	margin: 40px auto -15px auto;
+
+}
+
+#search-controls li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.search-field-wrapper-medium {
+	float: right;
+	margin-right: -10px;
+	width: 75%;
+}
+.search-field-wrapper-medium input.search-button-medium {
+margin: -43px -10px 0 0;
+}
+
+.inner-grid-column a {
+	float: right;
+ width: 84px;
+}
+
+#a-z-menu li {
+	zoom: 1;
+	display: inline;
+	margin: 0 2px 4px 0;
+}
+
+#disc-menu li {
+	background: none;
+	width: 14%;
+
+}
+
+.box ul {
+	margin-left: -5px !important;
+	margin-bottom: 10px;
+}
+
+.boxText ul li, .minboxText ul li, .majboxText ul li, .majboxText-img ul li, .minboxText-img ul li, .list-subsection ul li, .reduce ul li {
+	list-style-type: none outside;
+	background: url("../images/global/list-link-bullet.png") no-repeat 0 5px;
+	float: left;
+	margin: 0 30px 10px -10px;
+	padding: 0 0 0 20px;
+	font-size: 1em;
+}
+
+.boxText {
+	margin-top: 7em !important;
+}
+
+.boxText h4 {
+	margin-bottom: -20px !important;
+}
+
+.minboxText ul li, .minboxText-img ul li, .list-subsection ul li, .reduce ul li {
+width: 39%;
+}
+
+*:first-child+html .row, *:first-child+html .clr, *:first-child+html .group { 
+	zoom: 1; 
+} 
+
+.row {
+		margin-bottom: 2.5%;
+}
+.row:first-child {
+		margin-bottom: 0;
+}
+
+
+#first-event, #first-news {
+	background: #ccc;
+}
+.snbox {
+	width: 160px;
+}
+.snicon a {
+	cursor: pointer;
+}
+#records-home {
+
+}
+.recordsBox {
+	background: url('../images/global/black-75.png') #111;
+	padding-bottom: 10px!important;
+}
+
+.recordsBox li {
+	border-left: 1px solid #666!important;
+}
+
+
+.recordsBox li:first-child {
+	border-left: 0;
+}
+
+.recordsBox h3 {
+	clear: both;
+	width: 100%;
+}
+
+.callToAction {
+	display: inline-block;
+	/*padding-bottom: 10px;*/
+}
+
+.visitusBox a.callToAction {
+	padding: 0.3em!important;
+	
+}
+
+.visitusBox img {
+	height: 222px;
+
+}
+
+#a-z-menu li a.disabled, #a-z-menu li a.disabled:hover {
+	/*height: 48px;*/
+}
+#a-z-menu li span {
+	line-height: 48px;
+}
+
+
+h1 > span {
+	padding-bottom: 10px;
+}
+
+h2 > span {
+	padding-bottom: 10px;
+}
+
+#footer-wrapper ul {
+	margin-left: 0;
+}
+
+.boxText p {
+	padding: 8px 0 8px 0!important;
+}
+
+.img-desc {
+	margin-top: -15px !important;
+}
+
+.ends-at-half {
+	max-width: 48.9% !important;
+}
+
+.ends-at-one-third, .third {
+	max-width: 31.9% !important;
+}
+
+.ends-at-one-quarter {
+	max-width: 23.4%;
+}
+
+.ends-at-sixth {
+	max-width: 14.6%;
+}
+
+.half {
+	width: 100% !important;
+}
+
+#breadcrumb {
+	padding: 0 !important;
+}
+#breadcrumb ul {
+	margin: 0;
+	padding: 12px 0 12px 0;
+}
+
+#breadcrumb li {
+	display: inline;
+}
+
+#global-controls {
+	margin: .5em 0;
+
+}
+
+.mega-menu ul {
+	margin: 0;
+}
+
+#mega-menu-pull-down {
+	position: relative;
+	margin-top: -44px;
+	cursor: pointer;
+}
+
+#mega-menu-pull-down button {
+	height: 60px;
+	width: 60px;
+	display: block;
+}
+
+.mega-menu-group {
+	max-width: 14.75% !important;
+}
+
+.col50pc {
+	width: 44%;
+}
+
+#global-controls .call-to-action-link {
+	margin-right: -2px!important;
+}
+
+
+
+#global-controls li {
+	list-style-type: none;
+}
+
+#global-controls ul {
+	margin: 0;
+}
+
+#search-field-wrapper {
+	margin: 10px 0 0 0;
+	margin-right: 0!important;
+}
+
+#search-field-wrapper input[type="text"] {
+	padding-top: 9px;
+	width: 210px;
+	height: 31px;
+	padding-bottom: 1px;
+}
+
+
+#search-field-wrapper-medium  input[type="text"] {
+position: absolute;
+top: 0;
+right: 41px;
+width: 210px;
+height: 28px;
+border-radius: 0;
+font-family: 'Open Sans', sans-serif !important;
+}
+
+.search-field-wrapper-medium input.search-button {
+	margin: 10px 10px 0 0;
+}
+
+a.call-to-action-link {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+
+.overLay {
+	left: 0;
+	background: #111 !important;
+}
+
+
+/* level 1 landing pages */
+
+#section-header {
+	margin-bottom: 3em;
+}
+
+#primary-search-box > article {
+    /*background-image: url("../images/poplar.jpg");*/
+    background-position: left top;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid transparent;
+}
+
+#primary-search-box {
+	margin-bottom: 2%;
+}
+
+.mega-menu-group {
+	width: 14.9%;
+}
+
+.grid-within-grid > div {
+	width: 23.2%; 
+}
+ 
+.container .col .ends-at-one-quarter img, .container .col .ends-at-one-quarter img {
+	float: left;
+}
+
+.grid-within-grid-two-item > .inner-grid-column {
+	width: 47%;
+}
+
+.records .grid-within-grid-two-item > .inner-grid-column {
+	padding-bottom: 18px;
+}
+
+.grid-within-grid-three-item a h3 {
+	font-size: 1.2em;
+}
+
+h3.inline {
+	font-size: 1.2em;
+}
+
+.box-1, .box-2, .box-3 {
+	cursor: pointer;
+}
+
+#tnaSearch {
+	color: #777;
+	padding: 10px 0 0 8px;
+	max-height:30px;
+}
+
+#discovery-search-positioner {
+	padding-bottom: 0;
+}
+
+
+#discovery-search-field-wrapper {
+	background-color: #FFF;
+	height: 70px;
+}
+
+#discovery-search-field-wrapper input[type="text"] {
+	height: 59px;
+	width: 87.5%;
+}
+
+#discovery-banner-img-desc {
+	margin-top: -33px;
+}
+
+#discovery-search-tabs { 
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+#discovery-search-tabs li { 
+	display: inline;
+	margin-bottom: 0;
+	padding: 1em;
+	padding-left: 0;
+}
+
+
+#signInSearch {
+	z-index: 1000;
+	min-width: 200px;
+	display: inline;
+}
+
+#signInSearch li {
+	display: inline!important;
+}
+
+#scope-selector {
+	right: 258px;
+}
+
+#search-options {
+	top: 40px;
+	right: 86px;
+}
+
+#show-more-options {
+	display: inline-block;
+	margin-top: 0px;
+	background-position: 197px 8px;
+}
+
+.go-to-advanced-search {
+	display: inline-block;
+	font-size: 0.85em;
+	padding: 0.5em;
+	margin-top: 0px;
+}
+
+#signedFormWrapper {
+	top: 30px;
+	left: 0px;
+	margin-left: 0;
+	max-height: 170px;
+}
+
+#signedFormWrapper li {
+	display: block;
+	margin-bottom: 1em;
+	clear: both;
+	width: 100%;
+}
+
+#signedFormWrapper li a {
+	text-align: left;
+	display: block;
+	margin-bottom: 0.5em;
+
+}
+
+/* reduces extra space between these elements occurring in IE7 */
+.educationBox, .archivessectorBox, .infomanBox, .blogBox, .mediaBox, .enewsletterBox, .imageLibraryBox, .bookshopBox, .communityBox {
+	margin-bottom: -40px !important;
+}
+
+.entry-meta {
+    clear: both;
+    font-size: 0.9em;
+    margin-top: 20px !important;
+    padding: 0px;
+    width: 100%;
+}
+
+.search-field-wrapper-medium #query { 
+	padding-top: 12px;
+	color: #777;
+	height: 30px;
+}

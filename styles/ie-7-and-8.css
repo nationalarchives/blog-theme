@@ -1,0 +1,392 @@
+/*Note: We include only consistent site-wide styles and Blog-specific styles here */
+
+
+.container	{
+	width: 1160px !important;	
+}
+
+.grid-within-grid-three-item > div.griditem {
+	width: 31.1%;
+	min-height: 460px;
+}
+.grid-within-grid-eight-item > div {
+	width: 23.0%;
+	margin: 0 2% 2% 0;
+	float: left;
+}
+/*Note: this rule must appear before the 4n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-eight-item > div:nth-child(2n) {
+	margin-right: 2%;
+}
+/*Note: this rule must appear after the 2n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-eight-item > div:nth-child(4n) {
+	margin-right: 0;
+}
+.grid-within-grid-six-item > div {
+	width: 14.6%;
+	margin: 0 2% 2% 0;
+	float: left;
+}
+.mega-menu section nav:nth-child(3), .mega-menu section nav:nth-child(5) {
+	margin-left: 2%;
+}
+/*Note: this rule must appear before the 4n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-six-item > div:nth-child(2n) {
+	margin-right: 2%;
+}
+/*Note: this rule must appear after the 2n rule since the reset would be overwritten otherwise*/
+.grid-within-grid-six-item > div:nth-child(6n) {
+	margin-right: 0;
+}
+.grid-within-grid-two-item > div {
+	width: 49%;
+}
+#footer-wrapper .footer-left {
+	float: left;
+	width: 50%;
+}
+
+.search-field-wrapper {
+	width: 75%;
+}
+#media-queries #second {
+	display: block;
+}
+.pull-down {
+	margin: -32px 0 0;
+}
+.col {
+	margin-left: 2%;
+}
+.ends-at-sixth {
+	width: 23.0%;
+}
+.span_8 {
+	width: 32.0%;
+}
+.ends-at-full {
+/*background-color: rgba(104, 135, 139, 1);*/
+
+}
+.ends-at-one-quarter {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 48%;
+}
+.ends-at-one-third {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 98.0%;
+}
+.ends-at-half {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 49.0%;
+}
+.ends-at-two-thirds {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 66.0%;
+}
+.ends-at-three-quarters {
+	width: 74.5%;
+	margin-left: 2%;
+}
+#primary-navigation ul {
+	display: block;
+}
+#records-home {
+	min-height: 18em;
+}
+.ends-at-one-quarter:nth-child(3) {
+	margin-left: 2%;
+}
+.ends-at-sixth:nth-child(even) {
+	margin: 0 2%;
+}
+ul.recordsBox {
+	margin: 0;
+}
+ul.recordsBox li {
+	width: 29%;
+	float: left;
+	border-left: 1px solid #666;
+}
+ul.half li {
+	width: 45.9%;
+}
+ul.recordsBox li:nth-child(1) {
+	margin-left: 0;
+}
+.newsBox li {
+	width: 98%;
+}
+.boxText ul li, .majboxText ul li, .majboxText-img ul li, .list-subsection ul li ul li {
+	width: 96%;
+}
+.minboxText ul li, .minboxText-img ul li {
+	width: 45%;
+}
+div.overLay {
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+}
+div.overLay li p {
+	margin: 0 0 1em 0;
+}
+div.overLay h3 {
+	margin: .25em 0;
+	font-size: 1.4em;
+}
+.box p, .box h4 {
+	padding: 0;
+}
+
+.boxText {
+	margin-top: 6.5em;
+	line-height: 150%;
+}
+.boxText h3 {
+	display: inline-block;
+	margin: 0;
+}
+
+#search-field-wrapper {
+	display: block;
+	position: relative;
+	height: 2em;
+	border: 1px solid transparent;
+	margin: 0 .6em 0 0;
+	width: auto;
+}
+.dots {
+	background: transparent;
+}
+
+.img-desc {
+	margin: 0 0 1em 0;
+	float: left;
+	position: relative;
+	width: 100%;
+	color: #111;
+	text-align: right;
+	background: transparent;
+}
+.container .min-height {
+	min-height: 2104px;
+}
+
+#more-options > div {
+	min-height: 240px
+}
+
+#footer-wrapper .footer-left {
+	float: none;
+	width: auto;
+}
+.ends-at-one-quarter {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 23.5%;
+}
+.ends-at-one-third {
+	/*background-color: rgba(104, 135, 139, 1);*/
+	width: 32.0%;
+}
+.ends-at-sixth {
+	width: 14.6%;
+	margin-left: 2%;
+}
+#media-queries #third {
+	display: block;
+}
+.boxText ul li, .majboxText ul li, .majboxText-img ul li, .list-subsection ul li ul li {
+	width: 42%;
+}
+.minboxText ul li, .minboxText-img ul li {
+	width: 96%;
+}
+.educationBox h2, .archivessectorBox h2, .infomanBox h2 {
+	font-size: 1.5em;
+}
+
+#media-queries #fourth {
+	display: block;
+}
+.container {
+	width: 1240px;
+}
+#media-queries #second {
+	display: block;
+}
+
+#media-queries #fifth {
+	display: block;
+}
+.container {
+	width: 1280px;
+}
+#media-queries #third {
+	display: block;
+}
+.snicon-blog {
+	float: left;
+	width: 30%;
+	margin: 10px;
+	color: #eee;
+}
+#header-blog-left {
+    width: 99%;
+}
+.blog-dropdowns select {
+	display: inline;
+	width: auto;
+	margin: 0.7em 0.2em;
+}
+#blog-tools {
+	padding: 0;
+}
+#search-field-wrapper-blog {
+	position: relative;
+	min-height: 48px;
+	margin: 10px 10px 0 10px;
+}
+.header-blog p {
+	float: right;
+	font-size: 0.7em;
+	text-align: right;
+	margin-bottom: 0.3em;
+}
+select {
+	background: #fcfcfc;
+	border: 1px solid #ccc;
+	padding: 2px 1px 2px 3px;
+	margin: 10px 0 10px 10px;
+}
+ul.list-categories li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+ul.list-categories li a:link {
+	min-height: 32px;
+}
+ul.list-categories  {
+	margin: 20px 20px 0 20px !important;
+	padding: 0 0 0 0 1em;
+}
+.third {
+	width: 31%;
+}
+.half {
+	width: 49%;
+}
+.two-third {
+	width: 65%;
+}
+.img {
+	height: 180px;
+}
+.filter > h2 {
+	float: left;
+}
+
+
+.filter {
+	width: 100%;
+	height: 60px;
+}
+.filter + ul li:last-child {
+	border: 0;
+}
+
+
+#header-blog-left {
+	width: 99%;
+	float: left;
+		margin-top: -70px;
+}
+#header-blog-left select {
+	float: right;
+}
+.blog-dropdowns {
+	float: right;
+	width: 60%;
+	margin-top: 0px;
+}
+#search-field-wrapper-blog {
+	float: right;
+	width: 97.5%;
+}
+#search-field-wrapper-blog input[type="text"] {
+}
+#header-blog-left {
+	width: 65%;
+	float: none;
+}
+.blog-dropdowns {
+    float: right;
+
+}
+.blog-dropdowns select {
+	width: 40%;	
+	padding: 0.3em !important;
+}
+#search-field-wrapper-blog {
+    float: right;
+    width: 33%;
+}
+#search-field-wrapper-blog input[type="text"] {
+    border-radius: 0 0 0 0;
+    height: 19px;
+    text-indent: 10px;
+    width: 97.6%;
+	padding: 0.6em 0;
+}
+
+
+.blog-latest {
+	float: left;
+width: 31.3%;
+margin-left: 20px;
+padding-bottom: 20px;
+}
+.blog-latest:first-child {
+	margin-left: 0;
+}
+
+
+.container .min-height {
+	height: auto !important;
+	height: 2104px;
+    min-height: 2104px;
+}
+.mega-menu h3 {
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.mega-menu	{
+	zoom:1;
+	position:relative;	
+}
+
+.mega-menu li.mobileOnly {
+		display: none;
+	}
+
+
+.call-to-action-link span:first-child {
+	display: inline;
+}
+
+
+h1 > span {
+	background-image: url('http://nationalarchives.gov.uk/images/global/heading-flourish.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: bottom left !important;
+	padding-bottom: 0.42em !important;
+}
+
+h2 > span, h3 > span {
+	background-image: url('http://nationalarchives.gov.uk/images/global/heading-flourish.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: bottom left !important;
+	padding-bottom: 0.54em !important;
+}

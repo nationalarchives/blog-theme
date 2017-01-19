@@ -1,0 +1,358 @@
+#skip-to-main-content {
+    position: absolute;
+    top: -30px;
+}
+#mobile-search-wrapper {
+    max-width: 99%;
+    position: relative;
+    background-color: #FFF;
+}
+#mobile-search-wrapper input[type="submit"] {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 39px;
+    background: url("../images/global/search-white.png") no-repeat center;
+}
+#mobile-search-field {
+    padding: 0.55em;
+    width: 90%;
+}
+#page-header {
+    background-color: #333;
+    padding: 1em 0 0 0;
+}
+#mega-menu-pull-down {
+    border: 3px solid #efefef;
+    display: none;
+    font-size: 0.9em;
+    margin: 0 auto -30px;
+    padding: 0.8em;
+    position: relative;
+    text-align: center;
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 50%;
+    z-index: 2000;
+}
+#mega-menu-pull-down button {
+    background-image: url("../images/global/menu-collapsed.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    (;background-position: 51.5% 100%;); /* Safari hack */
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    font-size: 1em;
+    position: absolute;
+    padding: 14px 9px 20px;
+    left: 0;
+    top: 0;
+}
+
+#mega-menu-pull-down button, x:-moz-any-link { /* Firefox hack */
+    background-position: 51.5% 100%;
+}
+
+#mega-menu-pull-down button.expanded {
+    background-image: url("../images/global/menu-expanded.png");
+} 
+
+#holds-logo-and-search {
+    z-index: 1;
+}
+
+#search-field-wrapper {
+    position: relative;
+    border: 1px solid transparent;
+    margin: 0;
+    min-height: 40px;
+}
+
+#scope-selector {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 15.75em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url('../images/global/scope-selector.png');
+    background-repeat: no-repeat;
+    background-color: #383838;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#scope-selector.expanded {
+    background-image: url('../images/global/scope-selector-expanded.png');    
+}
+
+/* move to normalise? */
+input {
+    border: 0;
+}
+
+
+#search-field-wrapper input[type="text"] {
+    position: absolute;
+    top: 0;
+    right: 41px;
+    width: 210px;
+    height: 38px;
+    text-indent: 10px;
+    border-radius: 0;
+        font-family: 'Open Sans', sans-serif !important;
+
+} 
+
+input.search-button {
+    width: 40px;
+    height: 40px;
+    background: url("../images/global/search-white.png") no-repeat center;
+    background-size: cover;
+    padding: 0.39em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+a#cookieCutter {
+    text-decoration: underline;
+	background: url("../images/global/close-img.png") no-repeat 0 2px;
+	padding-left: 22px;
+	margin-left: 10px;
+}
+
+/*-----------------------------------*/
+/* Start of mega menu styles*/
+/*-----------------------------------*/
+#mega-menu {
+    display: none;
+    padding: 1.8em 1em 0 1em;
+    position: relative;
+    z-index: 1;
+}
+
+#mega-menu img {
+    max-width: 95%;
+    margin-top: 1em;
+}
+
+#mega-menu h3 {
+    text-shadow: none;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+#mega-menu h3.hyphenate { 
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+}
+
+#mega-menu h3 {
+    background: url("../images/global/plus.png") no-repeat 5px 12px;
+	padding: 5px 5px 5px 22px;
+	cursor: pointer;
+}
+#mega-menu h3:hover {
+    text-decoration: underline;
+}
+#mega-menu h3 a {
+	padding: 0;	
+}
+
+#mega-menu ul {
+    padding: 0;
+    margin: 10px 0;
+	/* margin-left: 1.6em; */
+}
+
+#mega-menu li {
+/*  margin-bottom: 0.5em;*/
+    list-style-type: none;
+/*    border-top: 1px dotted #666; *the border colour should ideally be defined in the palette css to avoid colour clashes */
+    font-size: 85%;
+}
+
+#mega-menu li:first-child {
+        border-top: none;
+}
+#mega-menu li:last-child {
+    border-bottom: none !important;
+}
+
+#mega-menu a {
+    color: #383838;
+    text-decoration: none;
+    display: block;
+    padding: 4px;
+}
+
+#mega-menu a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+#mega-menu p {
+    font-size: 0.85em;
+}
+
+#mega-menu ul {
+    display: none;
+    padding-bottom: 10px;
+}
+
+#mega-menu span {
+    background-image: none;
+}
+
+@-webkit-keyframes subtle-bounce {
+  0%, 100% { background-position: 50% 100%  }
+  50% { background-position: 50% 124% }
+}
+@-moz-keyframes subtle-bounce {
+  0%, 100% { background-position: 50% 100%  }
+  50% { background-position: 50% 124% }
+}
+@-o-keyframes subtle-bounce {
+  0%, 100% { background-position: 50% 100%  }
+  50% { background-position: 50% 124% }
+}
+@keyframes subtle-bounce {
+  0%, 100% { background-position: 50% 100%  }
+  50% { background-position: 50% 124% }
+}
+
+#mega-menu-pull-down button {
+    /*animation-name*/
+    -webkit-animation-name:subtle-bounce;
+       -moz-animation-name:subtle-bounce;
+        -ms-animation-name:subtle-bounce;
+         -o-animation-name:subtle-bounce;
+            animation-name:subtle-bounce;
+    /*animation-duration*/
+    -webkit-animation-duration:300ms;
+       -moz-animation-duration:300ms;
+        -ms-animation-duration:300ms;
+         -o-animation-duration:300ms;
+            animation-duration:300ms;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count:3;
+       -moz-animation-iteration-count:3;
+        -ms-animation-iteration-count:3;
+         -o-animation-iteration-count:3;
+            animation-iteration-count:3;
+    /*animation-delay*/
+    -webkit-animation-delay:4s;
+       -moz-animation-delay:4s;
+        -ms-animation-delay:4s;
+         -o-animation-delay:4s;
+            animation-delay:4s;
+}
+
+#mega-menu-pull-down button.hasBeenInteractedWith {
+    /*animation-iteration-count*/
+    /*Note: When the mega-menu has been expanded before the animation occurs, it will be prevented*/
+    -webkit-animation-iteration-count:0;
+       -moz-animation-iteration-count:0;
+        -ms-animation-iteration-count:0;
+         -o-animation-iteration-count:0;
+            animation-iteration-count:0;
+}
+
+@media only screen and (min-width: 480px) { 
+    #mega-menu ul {
+        display: block;
+		margin: 0 0;
+    }
+    .mega-menu-group {
+        width: 49%; 
+        margin-left: 2%;    
+    }
+    .mega-menu-group div {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 760px) { 
+    .mega-menu-group {
+        width: 32%; 
+        margin-left: 2%;    
+    }
+    .mega-menu-group:nth-child(4) {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .mega-menu-group {
+        width: 15%; 
+        margin-left: 2%;
+
+    }
+    .mega-menu-group:nth-child(4) {
+        margin-left: 2%;
+    }   
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (orientation: landscape) {
+
+}
+
+
+@media only screen and (orientation: portrait) {
+
+}
+/*-----------------------------------*/
+/* End of mega menu styles */
+/*-----------------------------------*/
+
+#search-options {
+    display: none;
+    background-color: #383838;
+    position: absolute;
+    top: 24px;
+    right: 80px;
+    padding: 5px 5px 5px 5px;
+    width: 202px;
+    z-index: 2002;
+}
+
+#search-options li {
+    list-style-type: none;
+}
+
+#search-options li a {
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 0.5em;
+    display: block;
+}
+
+
+#search-options li a:hover {
+    background-color: #FCE45C;
+    color: #000;
+}
+
+#changeDestination {
+    color: #FFF;
+    padding-top: 0.5em;
+}
+
+#changeDestination input[type="radio"] {
+
+}
+
+#changeDestination label {
+    margin: 0 0.5em;
+}

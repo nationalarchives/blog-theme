@@ -1,0 +1,20 @@
+.blog-latest {
+	float: left;
+width: 31.3%;
+margin-left: 20px;
+padding-bottom: 20px;
+}
+.blog-latest:first-child {
+	margin-left: 0;
+}
+
+/* image alignment in blog posts */
+.alignleft, .alignright {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+.alignright {
+	float: right;
+	margin: 20px 0 0 20px;
+}
