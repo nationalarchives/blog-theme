@@ -931,6 +931,17 @@ clear: both;
 	float: left;
 }
 
+.notification-banner {
+	background-color: #fce45c;
+	padding: 0.6em 1em;
+}
+.notification-banner .title {
+	background-color: #fff;
+	text-transform: uppercase;
+	padding: 0 .4em;
+	margin-right: 1em;
+}
+
 
  @media only screen and (min-width: 480px) {
  
