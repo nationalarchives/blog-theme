@@ -629,3 +629,18 @@ function my_img_caption_shortcode( $empty, $attr, $content ){
 	       . '<p class="wp-caption-text">' . $attr['caption'] . '</p>'
 	       . '</div>';
 }
+
+function survey_banner() {
+	?>
+	<div class="notification-banner">
+		<div class="container">
+			<div class="row">
+				<div class="notice">
+					<strong class="title">SURVEY</strong>
+					Please <a href="http://www.smartsurvey.co.uk/s/DHMDY/" target="_blank">fill in a survey</a> to help us improve our blog
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php
+}
