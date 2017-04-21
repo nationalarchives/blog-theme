@@ -137,9 +137,10 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
 
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/hub-behaviour.js"></script>
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/scripts/backstretch.js"></script>
-<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tna-definitions.js"></script>
-<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tna-bindings.js"></script>
-<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tna-run-on-page-load.js"></script>
+<script src="http://blog.nationalarchives.gov.uk/wp-content/themes/Redesign/scripts/tna-definitions.js?20170421"></script>
+
+<script src="http://blog.nationalarchives.gov.uk/wp-content/themes/Redesign/scripts/tna-bindings.js?20170421"></script>
+<script src="http://blog.nationalarchives.gov.uk/wp-content/themes/Redesign/scripts/tna-run-on-page-load.js?20170421"></script>
 <script type="text/javascript" src="http://nationalarchives.gov.uk/scripts/footer-img.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/scripts/jquery.newsletter.js"></script>
 
