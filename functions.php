@@ -644,3 +644,13 @@ function survey_banner() {
 	</div>
 	<?php
 }
+
+//Yoast og title
+add_filter('wpseo_opengraph_title','new_ogtitle', 999);
+
+function new_ogtitle( $title ) {
+
+	$title = get_the_title();
+	return $title;
+
+}
