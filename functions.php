@@ -630,27 +630,3 @@ function my_img_caption_shortcode( $empty, $attr, $content ){
 	       . '</div>';
 }
 
-function survey_banner() {
-	?>
-	<div class="notification-banner">
-		<div class="container">
-			<div class="row">
-				<div class="notice">
-					<strong class="title">SURVEY</strong>
-					Please <a href="http://www.smartsurvey.co.uk/s/DHMDY/" target="_blank">fill in a survey</a> to help us improve our blog
-				</div>
-			</div>
-		</div>
-	</div>
-	<?php
-}
-
-//Yoast og title
-add_filter('wpseo_opengraph_title','new_ogtitle', 999);
-
-function new_ogtitle( $title ) {
-
-	$title = get_the_title();
-	return $title;
-
-}

@@ -72,7 +72,6 @@
 </head>
 <body>
 <?php # Must be loaded after global.css ?>
-<?php echo survey_banner() ?>
 <div id="page-header" role="banner">
   <a href="#breadcrumb-holder" id="skip-to-main-content">Skip to Main Content</a>
   <div class="container">
