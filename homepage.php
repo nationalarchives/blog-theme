@@ -63,7 +63,7 @@ get_header();
     </div>
     <ul id="categoryNavigation" class="clr list-categories">
       <li class="active"><a class="" href="#records-research">Records and research</a></li>
-      <li><a class="" href="#behind-the-scenes">Behind the scenes</a></li>
+      <li><a class="" href="#archives-and-archivists">Archives and archivists</a></li>
       <li><a class="" href="#technology-innovation">Technology and innovation</a></li>
       <li><a class="" href="#managing-information">Managing information</a></li>
     </ul>
@@ -124,13 +124,13 @@ get_header();
               <div class="more-link"><a href="/blog/category/records-research" class="call-to-action-link right">View all posts in this category</a></div>
             </li>
           </ul>
-          <ul id="behind-the-scenes">
+          <ul id="archives-and-archivists">
             <li class="grid-within-grid-three-item">
               <?php 
-			  query_posts(array('category_name'=>'behind-the-scenes', 'showposts'=>'3', 'post__not_in'=> $displayed_posts ));
+			  query_posts(array('category_name'=>'archives-and-archivists', 'showposts'=>'3', 'post__not_in'=> $displayed_posts ));
               //reset postnumber variable   
               $postnumber =1;
-			  //query_posts('category_name=behind-the-scenes&showposts=3'); ?>
+			  //query_posts('category_name=archives-and-archivists&showposts=3'); ?>
               <?php while (have_posts()) : the_post(); ?> <?php if (has_post_thumbnail( $post->ID ) ): ?>
                 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
                 <?php endif; ?>
@@ -151,7 +151,7 @@ get_header();
                 <?php the_excerpt(); ?>
               </div>
               <?php endwhile;?>
-              <div class="more-link"><a href="/blog/category/behind-the-scenes" class="call-to-action-link right">View all posts in this category</a></div>
+              <div class="more-link"><a href="/blog/category/archives-and-archivists" class="call-to-action-link right">View all posts in this category</a></div>
             </li>
           </ul>
           <ul id="technology-innovation">
